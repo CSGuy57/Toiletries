@@ -16,7 +16,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private Button loginsdfsdfsdfButton;
+     private Button loginsdfsdfsdfButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
