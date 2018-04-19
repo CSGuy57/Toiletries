@@ -16,19 +16,27 @@ import android.view.MenuItem;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private Button loginButton;
+    //
+    private Button loggingInButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        loginButton = findViewById(R.id.login_button);
+        // Here are some comments
+        loggingInButton = findViewById(R.id.login_button);
 
-        loginButton.setOnClickListener(new View.OnClickListener() {
+        loggingInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), LoggedInActivity.class);
+
+                String test = new String();
+                // TODO: Add code to login to Backendless
+                test = "lksdjflkjsdf";
+
+                // This will start the new activity
                 startActivity(intent);
             }
         });
