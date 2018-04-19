@@ -16,16 +16,26 @@ import android.view.MenuItem;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+<<<<<<< HEAD
      private Button loginsdfsdfsdfButton;
+=======
+    private Button loginButton;
+>>>>>>> parent of d75a436... Added some changes that will break stuff
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+<<<<<<< HEAD
         loginsdfsdfsdfButton = findViewById(R.id.login_button);
 
         loginsdfsdfsdfButton.setOnClickListener(new View.OnClickListener() {
+=======
+        loginButton = findViewById(R.id.login_button);
+
+        loginButton.setOnClickListener(new View.OnClickListener() {
+>>>>>>> parent of d75a436... Added some changes that will break stuff
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), LoggedInActivity.class);
