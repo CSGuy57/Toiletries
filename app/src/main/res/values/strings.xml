@@ -14,4 +14,17 @@
     <string name="share">Share</string>
     <string name="send">Send</string>
     <string name="communicate">Communicate</string>
+    <string name="app_name">ToileTrees</string>
+    <string name="button1">Add Data</string>
+    <string name="button1_text">Click here to create a new study guide or manage an existing one.</string>
+    <string name="user_login">Login:</string>
+    <string name="main_text1">Welcome to ToileTrees!</string>
+    <string name="main_text2">Login to manage your study guides.</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 </resources>
