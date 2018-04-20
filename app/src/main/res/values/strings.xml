@@ -19,4 +19,5 @@
     <string name="user_login">Login:</string>
     <string name="main_text1">Welcome to ToileTrees!</string>
     <string name="main_text2">Login to manage your study guides.</string>
+    <color name="blue">#0000FF</color>
 </resources>

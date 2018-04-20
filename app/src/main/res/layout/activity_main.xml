@@ -4,15 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/blue"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="57dp"
+        android:layout_marginTop="25dp"
         android:text="@string/main_text1"
         android:textSize="35sp"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
@@ -41,16 +43,16 @@
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="84dp"
-        android:layout_marginStart="85dp"
+        android:layout_marginEnd="1dp"
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/login_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <ImageView
+        tools:ignore="ContentDescription"
         android:id="@+id/imageView"
         android:layout_width="382dp"
         android:layout_height="331dp"
@@ -62,10 +64,17 @@
 
     <Button
         android:id="@+id/login_button"
-        android:layout_width="wrap_content"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:text="Login"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="233dp" />
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/user_login"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
 </android.support.constraint.ConstraintLayout>
