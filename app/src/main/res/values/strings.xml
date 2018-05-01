@@ -20,5 +20,11 @@
     <string name="main_text1">Welcome to ToileTrees!</string>
     <string name="Email">www.ToileTrees.com</string>
     <string name="main_text2">Login to manage your study guides.</string>
+    <string name="name_hint">Enter Name</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="email_hint">Enter Email</string>
+    <string name="login_button_label">Log In</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="signup_button_label">Sign Up</string>
     <color name="blue">#0000FF</color>
 </resources>
