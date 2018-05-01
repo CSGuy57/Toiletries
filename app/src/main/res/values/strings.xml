@@ -11,9 +11,9 @@
     <string name="gallery">Gallery</string>
     <string name="slideshow">Slideshow</string>
     <string name="tools">Tools</string>
-    <string name="share">Share</string>
-    <string name="send">Send</string>
-    <string name="communicate">Communicate</string>
+    <string name="share">Upload data</string>
+    <string name="send">Edit existing</string>
+    <string name="communicate">Add Content</string>
     <string name="button1">Add Data</string>
     <string name="button1_text">Click here to create a new study guide or manage an existing one.</string>
     <string name="user_login">Login:</string>
