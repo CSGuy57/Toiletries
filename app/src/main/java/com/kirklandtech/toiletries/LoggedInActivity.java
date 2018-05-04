@@ -13,6 +13,21 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import android.widget.TextView;
+import android.support.v7.app.AlertDialog;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.util.Log;
+import android.widget.TextView;
+import com.backendless.Backendless;
+import com.backendless.BackendlessUser;
+import com.backendless.async.callback.AsyncCallback;
+import com.backendless.exceptions.BackendlessFault;
+
+import java.util.Map;
+
+
+
 public class LoggedInActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -41,6 +56,8 @@ public class LoggedInActivity extends AppCompatActivity
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
     }
+
+
 
     @Override
     public void onBackPressed() {
@@ -98,4 +115,24 @@ public class LoggedInActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+/*
+    public class LoggedInActivity extends AppCompatActivity {
+        private TextView loggedInTextView;
+
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_logged_in);
+
+            loggedInTextView = findViewById(R.id.textViewLoggedInMessage);
+
+            BackendlessUser user = Backendless.UserService.CurrentUser();
+
+            loggedInTextView.setText("Welcome, " + user.getEmail() + "!");
+
+            Marker marker = new Marker("Red", Marker.tipTypes.CHISEL);
+        }
+    }
+*/
 }
+
