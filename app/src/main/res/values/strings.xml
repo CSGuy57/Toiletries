@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">ToileTrees</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -20,7 +20,7 @@
     <string name="main_text1">Welcome to ToileTrees!</string>
     <string name="Email">www.ToileTrees.com</string>
     <string name="main_text2">Login to manage your study guides.</string>
-    <string name="todo">TODO</string>
+    <string name="todo" tools:ignore="DuplicateDefinition">TODO</string>
     <color name="blue">#0000FF</color>
     <string name="title_activity_login">Sign in</string>
 
@@ -42,9 +42,9 @@
     <string name="name_hint">Name</string>
     <string name="signup_button_label">SIGN ME UP</string>
     <string name="signup_button_label_cancel">CANCEL SIGN UP</string>
-    <string name="backendless_app_id">CC1D931B-AF9D-0EF4-FF96-6159D8757E00</string>
+    <string name="backendless_app_id" tools:ignore="TypographyDashes">CC1D931B-AF9D-0EF4-FF96-6159D8757E00</string>
     <string name="backendless_api_key">48CA515F-282D-7D67-FFEA-27642C961400</string>
     <string name="authentication_error_title">User Authentication Error!</string>
-    <string name="empty_field_signup_error">YOU DUMB BASTERD!! Entered a valid email address, password, and name.</string>
+    <string name="empty_field_signup_error">YOU DUMB BASTARD!! Entered a valid email address, password, and name.</string>
     <string name="invalid_email_message">Email must contain @ and .</string>
 </resources>
