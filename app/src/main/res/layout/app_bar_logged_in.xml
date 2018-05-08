@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoggedInActivity">
+    tools:context=".LoggedInActivity"
+    android:background="@color/blue">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -29,5 +30,12 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        app:srcCompat="@drawable/root"
+        android:contentDescription="@string/todo" />
 
 </android.support.design.widget.CoordinatorLayout>
