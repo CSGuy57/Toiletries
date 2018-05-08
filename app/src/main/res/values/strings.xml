@@ -1,18 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">ToileTrees</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="parent_activity">Parent Activity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-    <string name="drawer_import">Import</string>
-    <string name="gallery">Gallery</string>
-    <string name="slideshow">Slideshow</string>
-    <string name="tools">Tools</string>
-    <string name="share">Upload data</string>
-    <string name="send">Edit existing</string>
+    <string name="import_data">Import Data</string>
+    <string name="study_material">Study Material</string>
+    <string name="study_guides">Study Guides</string>
+    <string name="calendar">Calendar</string>
+    <string name="download_data">Download Data</string>
+    <string name="edit_existing">Edit Existing</string>
     <string name="communicate">Add Content</string>
     <string name="button1">Add Data</string>
     <string name="button1_text">Click here to create a new study guide or manage an existing one.</string>
@@ -47,4 +48,10 @@
     <string name="authentication_error_title">User Authentication Error!</string>
     <string name="empty_field_signup_error">YOU DUMB BASTARD!! Entered a valid email address, password, and name.</string>
     <string name="invalid_email_message">Email must contain @ and .</string>
+    <string name="title_activity_import_data">ImportDataActivity</string>
+    <string name="title_activity_study_material">StudyMaterialActivity</string>
+    <string name="title_activity_study_guides">StudyGuidesActivity</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="title_activity_download_data">DownloadDataActivity</string>
+    <string name="title_activity_edit_existing">EditExistingActivity</string>
 </resources>

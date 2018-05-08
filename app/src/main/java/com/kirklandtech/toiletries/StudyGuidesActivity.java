@@ -1,6 +1,8 @@
 package com.kirklandtech.toiletries;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -76,22 +78,22 @@ public class StudyGuidesActivity extends AppCompatActivity
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            // Handle the camera action
+            startActivity(new Intent(this, ImportDataActivity.class));
         } else if (id == R.id.nav_gallery) {
-
+            startActivity(new Intent(this, StudyMaterialActivity.class));
         } else if (id == R.id.nav_slideshow) {
-
+            startActivity(new Intent(this, StudyGuidesActivity.class));
         } else if (id == R.id.nav_manage) {
-
+            startActivity(new Intent(this, CalendarActivity.class));
         } else if (id == R.id.nav_share) {
-
+            startActivity(new Intent(this, DownloadDataActivity.class));
         } else if (id == R.id.nav_send) {
-
+            startActivity(new Intent(this, EditExistingActivity.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

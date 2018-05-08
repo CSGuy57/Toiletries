@@ -1,5 +1,6 @@
 package com.kirklandtech.toiletries;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
@@ -10,6 +11,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -84,23 +86,34 @@ public class LoggedInActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            // Handle the camera action
+            startActivity(new Intent(this, ImportDataActivity.class));
         } else if (id == R.id.nav_gallery) {
-
+            startActivity(new Intent(this, StudyMaterialActivity.class));
         } else if (id == R.id.nav_slideshow) {
-
+            startActivity(new Intent(this, StudyGuidesActivity.class));
         } else if (id == R.id.nav_manage) {
-
+            startActivity(new Intent(this, CalendarActivity.class));
         } else if (id == R.id.nav_share) {
-
+            startActivity(new Intent(this, DownloadDataActivity.class));
         } else if (id == R.id.nav_send) {
-
+            startActivity(new Intent(this, EditExistingActivity.class));
         }
 
-        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+    /*public void openParent(MenuItem item) {
+        System.out.println("Working");
+        //startActivity(new Intent(LoggedInActivity.this, ParentActivity.class));
+
+        Intent i = new Intent(LoggedInActivity.this, ParentActivity.class);
+        startActivity(i);
+
+    }*/
+
+
 /*
     public class LoggedInActivity extends AppCompatActivity {
         private TextView loggedInTextView;
