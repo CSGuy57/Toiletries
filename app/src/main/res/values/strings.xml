@@ -49,10 +49,10 @@
     <string name="authentication_error_title">User Authentication Error!</string>
     <string name="empty_field_signup_error">YOU DUMB BASTARD!! Entered a valid email address, password, and name.</string>
     <string name="invalid_email_message">Email must contain @ and .</string>
-    <string name="title_activity_import_data">ImportDataActivity</string>
-    <string name="title_activity_study_material">StudyMaterialActivity</string>
-    <string name="title_activity_study_guides">StudyGuidesActivity</string>
-    <string name="title_activity_calendar">CalendarActivity</string>
-    <string name="title_activity_download_data">DownloadDataActivity</string>
-    <string name="title_activity_edit_existing">EditExistingActivity</string>
+    <string name="title_activity_import_data">Import Data</string>
+    <string name="title_activity_study_material">Study Material</string>
+    <string name="title_activity_study_guides">Study Guides</string>
+    <string name="title_activity_calendar">Calendar</string>
+    <string name="title_activity_download_data">Download Data</string>
+    <string name="title_activity_edit_existing">Edit Existing</string>
 </resources>
