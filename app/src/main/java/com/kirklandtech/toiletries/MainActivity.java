@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView textViewSignMeUp;
     private final String TAG = MainActivity.class.toString();
 
-    @Override
+    @Override 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
