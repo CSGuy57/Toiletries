@@ -11,12 +11,12 @@
 
     <application
         android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:fullBackupContent="@xml/backup_descriptor"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".MainActivity"
@@ -32,7 +32,34 @@
             android:name=".LoggedInActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
-
+        <activity
+            android:name=".ParentActivity"
+            android:label="@string/parent_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ImportDataActivity"
+            android:label="@string/title_activity_import_data"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudyMaterialActivity"
+            android:label="@string/title_activity_study_material"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudyGuidesActivity"
+            android:label="@string/title_activity_study_guides"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CalendarActivity"
+            android:label="@string/title_activity_calendar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DownloadDataActivity"
+            android:label="@string/title_activity_download_data"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditExistingActivity"
+            android:label="@string/title_activity_edit_existing"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
